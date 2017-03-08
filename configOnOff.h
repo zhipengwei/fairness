@@ -1,0 +1,20 @@
+#define EXPERIMENT_CONFIG_BUFFER_SIZE_PACKETS 20
+#define EXPERIMENT_CONFIG_BUFFER_SIZE_BYTES 200000
+#define EXPERIMENT_CONFIG_START_TIME   2 
+#define EXPERIMENT_CONFIG_STOP_TIME    20
+#define EXPERIMENT_CONFIG_PACKET_SIZE 20 // This is the parameters of the distribution of packet size
+#define EXPERIMENT_CONFIG_INTERVAL    20 // This is the parameters of the distribution of packet interval
+
+#define NUMBER_OF_TERMINALS 2;
+// Sender data rate
+#define EXPERIMENT_SENDER_ONTIME_CONSTANT 2
+#define EXPERIMENT_SENDER_DOWNTIME_LAMBDA 2
+
+// sender link, data rate is bps; delay is in mili seconds;
+#define EXPERIMENT_CONFIG_SENDER_LINK_DATA_RATE 2000000
+#define EXPERIMENT_CONFIG_SENDER_LINK_DELAY 2
+
+// server link
+#define EXPERIMENT_CONFIG_SERVER_LINK_DATA_RATE 20000000
+#define EXPERIMENT_CONFIG_SERVER_LINK_DELAY 2
+
